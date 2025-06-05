@@ -182,7 +182,7 @@ const WalletConnection = () => {
           ) : (
             <div className="text-center py-4">
               <div className="text-4xl font-bold text-transparent bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text">
-                {tokenBalance !== null ? `${tokenBalance.toFixed(4)} SOL` : '--'}
+                {tokenBalance !== null ? `${tokenBalance.toFixed(4)} USDC` : '--'}
               </div>
               <div className="text-sm text-gray-400 mt-2">
                 Network: Devnet
